@@ -1,0 +1,105 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App{
+  min-height:100vh;
+  max-height:auto;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction:column;
+  background-image:url(blank-paper-sheet-with-flowers-blue-table.jpg) ;
+  background-size: 100% 100vh;
+  background-repeat:repeat;
+  text-align: center;
+
+}
+@font-face {
+  font-family:myfont ;
+  src:url(stylish-calligraphy-font/StylishCalligraphyDemo-XPZZ.ttf);
+}
+.main1{
+  min-height:auto;
+  /* max-height: auto; */
+  width:100%;
+  margin-top:5vh;
+  display: flex;
+  align-items: center;
+  
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+h1{
+  font-family: myfont;
+  font-size:5rem;
+  text-decoration: underline;
+  color:rgb(3, 86, 86);
+
+}
+.name{
+  height:5vh;
+  width:43vw;
+  border-radius: 5px;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.input{
+  height: auto;
+  width:auto;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  font-size:1.5rem;
+}
+button{
+  height:5.5vh;
+  width:76px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  margin-left: 0.2rem;
+}
+.output{
+  height:auto;
+  width:70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+h2{
+  width:85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow:hidden; 
+  word-wrap: break-word;
+  /* align-items: center; */
+  background-color: aliceblue;
+  margin-top:2rem;
+  border-radius: 5px;
+}
+.content{
+  /* min-height:200vh; */
+  min-height: auto;
+  width:auto;
+  display: flex;
+  flex-direction:coloumn;
+   flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+}
+
+.content button{
+  width:5rem;
+  height: 5vh;
+  border-radius: 5px;
+  margin-top: 4.5% ;
+  margin-left: 0.2rem;
+}
